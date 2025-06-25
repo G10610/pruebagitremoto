@@ -153,12 +153,12 @@ STATIC_URL = 'static/'
     # and renames the files with unique names for each version to support long-term caching
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 """
-#from pathlib import Path
-#BASE_DIR = Path(__file__).resolve().parent.parent
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-#STATICFILES_DIRS = [
-#    BASE_DIR / 'static',
-#]
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
 
 
 
